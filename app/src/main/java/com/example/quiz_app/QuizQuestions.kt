@@ -3,13 +3,9 @@ package com.example.quiz_app
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class QuizQuestions : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-//        val btn_start : Button = findViewById(R.id.btn_start)
-//        val et_name : btn
-
+        setContentView(R.layout.activity_quiz_questions)
     }
 }
