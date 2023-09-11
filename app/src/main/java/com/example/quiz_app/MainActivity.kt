@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import android.content.Intent as Intent1
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +18,11 @@ class MainActivity : AppCompatActivity() {
         btn_start.setOnClickListener{
             if(et_name.text.isEmpty()){
                 Toast.makeText(this,"Please enter your name to begin",Toast.LENGTH_SHORT).show()
+            }
+            else{
+                val intent = Intent1(this,QuizQuestions::class.java)
+                startActivity(intent)
+                finish()
             }
         }
 
