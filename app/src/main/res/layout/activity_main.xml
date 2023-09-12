@@ -93,7 +93,7 @@
                 android:id="@+id/btn_start"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                tools:ignore="InvalidId" />
+                />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
