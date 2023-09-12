@@ -106,7 +106,7 @@ class QuizQuestions : AppCompatActivity(), View.OnClickListener {
             option.typeface = Typeface.DEFAULT
             option.background = ContextCompat.getDrawable(
                 this,
-                R.drawable.default_option_border_bg
+                R.drawable.selected_option_border_bg
             )
         }
 
@@ -120,7 +120,7 @@ class QuizQuestions : AppCompatActivity(), View.OnClickListener {
         tv.setTypeface(tv.typeface,Typeface.BOLD)
         tv.background = ContextCompat.getDrawable(
             this,
-            R.drawable.default_option_border_bg
+            R.drawable.selected_option_border_bg
         )
     }
 
